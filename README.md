@@ -1,6 +1,5 @@
-----------------------
 # NEON OPERATOR CONKY
-----------------------
+
 Cyberpunk styled Conky system monitor.
 
 Features:
@@ -16,15 +15,13 @@ Compatible with most Linux systems.
 Note:
 Network interface may need adjustment depending on system
 (e.g. wlan0, wlan1, eth0, enp3s0).
------------
+
 ## Preview
------------
 
 ![Neon Operator Conky](conky.png)
 
-----------
+
 ## Install
-----------
 
 # Clone the repository
 git clone https://github.com/wilsontavarez/neon-operator-conky
@@ -47,17 +44,15 @@ printf '[Desktop Entry]\nType=Application\nExec=conky\nHidden=false\nNoDisplay=f
 # Start Conky now
 conky &
 
----------
+
 # RESULT
----------
 
 - Conky starts automatically after every reboot or login.
 - Hardware sensors are detected automatically.
 - Works on Debian, Ubuntu, antiX and most Linux desktops.
 
------------------
+
 # TROUBLESHOOTING
------------------
 
 If network speed does not appear, edit the network interface inside ~/.conkyrc
 Example:
