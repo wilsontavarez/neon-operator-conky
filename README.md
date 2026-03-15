@@ -46,6 +46,7 @@ sudo sensors-detect --auto
 # Enable Conky autostart so it runs every time you log in
 
 mkdir -p ~/.config/autostart
+
 printf '[Desktop Entry]\nType=Application\nExec=conky\nHidden=false\nNoDisplay=false\nX-GNOME-Autostart-enabled=true\nName=Conky\nComment=Start Conky system monitor\n' > ~/.config/autostart/conky.desktop
 
 # Start Conky now
